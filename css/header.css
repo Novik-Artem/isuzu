@@ -28,6 +28,9 @@
   color: var(--black);
   margin: 0 0 0 0.5rem;
   white-space: nowrap;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 .contacts__messengers {
   display: flex;

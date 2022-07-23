@@ -4,7 +4,8 @@
   font-weight: 400;
   src: url("../fonts/jost-v14-cyrillic-regular.eot");
   src: local(""),
-    url("../fonts/jost-v14-cyrillic-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/jost-v14-cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/jost-v14-cyrillic-regular.woff2") format("woff2"),
     url("../fonts/jost-v14-cyrillic-regular.woff") format("woff"),
     url("../fonts/jost-v14-cyrillic-regular.ttf") format("truetype"),
@@ -24,15 +25,3 @@
     url("../fonts/jost-v14-cyrillic-500.svg#Jost") format("svg");
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.eot');
-  src: local(''),
-       url('../fonts/montserrat-v25-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
-       url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'),
-       url('../fonts/montserrat-v25-latin_cyrillic-regular.ttf') format('truetype'),
-       url('../fonts/montserrat-v25-latin_cyrillic-regular.svg#Montserrat') format('svg');
-}
