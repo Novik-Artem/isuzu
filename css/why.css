@@ -3,10 +3,12 @@
   background-color: var(--orange);
   color: var(--white);
 }
+
 .why__content {
   display: flex;
   justify-content: space-between;
 }
+
 .why__title {
   font-family: "Jost";
   font-style: normal;
@@ -14,20 +16,24 @@
   font-size: 2.8rem;
   line-height: 100%;
 }
+
 .why__row {
   max-width: 58.75rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .why__column {
   max-width: 18rem;
   width: 100%;
   margin: 0 2rem 0 0;
 }
+
 .why__column:last-child {
   margin: 0;
 }
+
 .column__number {
   font-family: "Jost";
   font-style: normal;
@@ -36,6 +42,7 @@
   line-height: 100%;
   margin: 0 0 1rem 0;
 }
+
 .column__title {
   font-family: "Jost";
   font-style: normal;
@@ -44,9 +51,10 @@
   line-height: 100%;
   white-space: nowrap;
   margin: 0 0 1rem 0;
-	padding: 1rem 0 0 0;
+  padding: 1rem 0 0 0;
   border-top: 0.0625rem solid var(--white);
 }
+
 .column__text {
   line-height: 130%;
   max-width: 15.125rem;
@@ -56,13 +64,16 @@
   .why__content {
     display: block;
   }
+
   .why {
     padding: 3rem 0;
   }
+
   .why__title {
     margin: 0 0 2.5rem 0;
     text-align: center;
   }
+
   .why__row {
     justify-content: center;
     margin: 0 auto;
@@ -73,17 +84,31 @@
   .why__row {
     flex-wrap: wrap;
   }
-  .why__column {
-    margin: 0 2rem 3rem 0;
-  }
+
   .why__column:last-child {
     margin: 0 2rem 0 0;
   }
-}
 
-@media (max-width: 338px) {
   .why__title {
     margin: 0 0 2.5rem 0;
     text-align: left;
+  }
+
+  .why__row {
+    justify-content: flex-start;
+  }
+
+  .column__text {
+    max-width: 25.125rem;
+  }
+
+  .why__column {
+    margin: 0 2rem 3rem 0;
+    max-width: 100%;
+  }
+
+  .why__content {
+    max-width: 29rem;
+    margin: 0 auto;
   }
 }
