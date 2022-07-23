@@ -1,5 +1,5 @@
 #main {
-  margin: 90px 0 100px 0;
+  margin: 5.75rem 0 6.25rem 0;
 }
 
 #main .wrapper {
@@ -9,78 +9,84 @@
 }
 
 .main__title {
-  margin: 0 0 45px 0;
+  margin: 0 0 2.75rem 0;
 }
 
 .main__h1 {
   display: flex;
   align-items: flex-end;
-  font-size: 70px;
+  font-size: 4.5rem;
   font-weight: 500;  
   font-family: "Jost";
-  padding: 0 0 25px 0;
+  padding: 0 0 1.5rem 0;
 }
 
 .main__circle {
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 0.5rem;
+  height: 0.5rem;
   background-color: var(--orange);
   border-radius: 50%;
-  margin: 0 0 8px 8px;
+  margin: 0 0 0.5rem 0.5rem;
 }
 
 .main__text {
-  max-width: 474px;
-  font-size: 14px;
+  max-width: 24.5rem;
+  font-size: 0.875rem;
   line-height: 120%;
 }
 
 .main__form {
   width: 100%;
   display: flex;
+  justify-content: center;
   background-image: url(../images/main-bakcground.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0;
+  padding: 10.75rem 1rem;
 }
 
 .main__container {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 25rem;
   width: 100%;
-  margin: 0 0 0 500px;
 }
 
 .main__h2 {
-  font-size: 45px;
+  font-size: 2.75rem;
   font-weight: 500;
   font-family: "Jost";
   color: var(--white);
-  margin: 0 0 46px 0;
+  margin: 0 0 2.75rem 0;
 }
 
 .main__input {
   border: 2px solid var(--orange);
-  margin: 0 0 10px 0;
-  padding: 16px;
+  margin: 0 0 0.625rem 0;
+  padding: 1rem;
   font-family: "Jost";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   background: transparent;
   color: var(--white);
 }
 
 .main__input:last-child {
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
 .main__button {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   background-color: var(--orange);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   color: var(--white);
-  margin: 54px 0 0 0;
+  margin: 3.5rem 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    margin: 50px 0 100px 0;
+  }
 }
