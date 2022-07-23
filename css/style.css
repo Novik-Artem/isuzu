@@ -4,6 +4,7 @@
 @import "./header.css";
 @import "./main.css";
 @import "./why.css";
+@import "./benefits.css";
 
 body {
   font-family: "Montserrat";
