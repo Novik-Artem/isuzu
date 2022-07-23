@@ -8,6 +8,8 @@
 
 body {
   font-family: "Montserrat";
+  background-color: var(--grey);
+  font-size: 1rem;
 }
 
 .wrapper {

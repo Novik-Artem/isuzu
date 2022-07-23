@@ -16,7 +16,7 @@
   display: flex;
   align-items: flex-end;
   font-size: 4.5rem;
-  font-weight: 500;  
+  font-weight: 500;
   font-family: "Jost";
   padding: 0 0 1.5rem 0;
 }
@@ -32,7 +32,7 @@
 
 .main__text {
   max-width: 24.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 120%;
 }
 
@@ -76,6 +76,10 @@
   margin: 0 0 0 0;
 }
 
+.main__input::placeholder {
+  color: var(--white);
+}
+
 .main__button {
   padding: 1.25rem 0;
   background-color: var(--orange);
@@ -88,5 +92,26 @@
 @media screen and (max-width: 768px) {
   #main {
     margin: 50px 0 100px 0;
+  }
+
+  .main__form {
+    padding: 95px 1rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main__h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .main__h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main__h1 {
+    font-size: 3.2rem;
   }
 }
