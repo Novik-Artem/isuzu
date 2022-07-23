@@ -3,6 +3,7 @@
 @import "./null-style.css";
 @import "./header.css";
 @import "./main.css";
+@import "./why.css";
 
 body {
   font-family: "Montserrat";
@@ -11,4 +12,5 @@ body {
 .wrapper {
 	max-width: 92rem;
   margin: 0 auto;
+	padding: 0 1rem;
 }
