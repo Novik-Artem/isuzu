@@ -1,7 +1,13 @@
 @import "./fonts.css";
 @import "./vars.css";
 @import "./null-style.css";
+@import "./main.css";
+
 body {
   font-family: "Montserrat";
 }
 
+.wrapper {
+  max-width: 1480px;
+  margin: 0 auto;
+}

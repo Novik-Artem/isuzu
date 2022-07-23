@@ -1,0 +1,42 @@
+#main {
+  margin: 90px 0 100px 0;
+}
+
+#main .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main__title {
+  margin: 0 0 45px 0;
+}
+
+.main__h1 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 70px;
+  font-weight: 500;  
+  font-family: "Jost";
+  padding: 0 0 25px 0;
+}
+
+.main__circle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--orange);
+  border-radius: 50%;
+  margin: 0 0 8px 8px;
+}
+
+.main__text {
+  max-width: 474px;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.main__form {
+  background-image: url(../images/main-bakcground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
