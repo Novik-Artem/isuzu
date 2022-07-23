@@ -1,0 +1,138 @@
+.about {
+  margin: 0 0 20rem 0;
+}
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+.about__info {
+  padding: 0 1rem 0 0;
+}
+.info__title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 100%;
+  margin: 0 0 2rem 0;
+}
+.info__text {
+  max-width: 30rem;
+  line-height: 130%;
+  margin: 0 0 4.3rem;
+}
+.list__item {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 100%;
+  max-width: 22rem;
+  border-bottom: 1px solid var(--orange);
+  margin: 0 0 2rem 0;
+  display: flex;
+  padding: 0 0.5rem 0 0;
+}
+.list__item img {
+  transition: all 0.5s ease 0s;
+}
+.list__item span {
+  flex: 1 1 auto;
+}
+.details {
+  display: flex;
+  font-size: 1rem;
+  width: 100%;
+}
+.summary {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.details > .summary {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.details[open] summary img {
+  transform: rotate(-180deg);
+}
+
+.about__images {
+  display: flex;
+}
+.images__column {
+  max-width: 30rem;
+  height: 39rem;
+}
+.last-column {
+  display: flex;
+  flex-direction: column;
+}
+.about__img_2 {
+  flex: 1 1 auto;
+}
+.about__img_1 {
+  height: 100%;
+  padding: 0 1rem 0 0;
+}
+.about__img_2 {
+  padding: 0 0 1.25rem 0;
+}
+.about__img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1380px) {
+  .images__column {
+    max-width: 24rem;
+    height: 33rem;
+  }
+}
+@media (max-width: 1280px) {
+  .images__column {
+    max-width: 21rem;
+    height: 30rem;
+  }
+}
+@media (max-width: 1150px) {
+  .images__column {
+    max-width: 17rem;
+    height: 24.25rem;
+  }
+}
+@media (max-width: 1023px) {
+  .images__column {
+    max-width: 16rem;
+  }
+}
+@media (max-width: 992px) {
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 540px) {
+  .about__images {
+    display: block;
+  }
+  .images__column {
+    max-width: none;
+    height: auto;
+  }
+  .about__img_1 {
+    height: 100%;
+    padding: 0 0 1rem 0;
+  }
+  .last-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about__img_2 {
+    flex: none;
+    height: 100%;
+    padding: 0;
+  }
+}
