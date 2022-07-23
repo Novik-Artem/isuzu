@@ -8,12 +8,7 @@ body {
   font-family: "Montserrat";
 }
 
-.container {
-	max-width: 92rem;
-	margin: 0 auto;
-}
-
 .wrapper {
-  max-width: 1480px;
+	max-width: 92rem;
   margin: 0 auto;
 }
