@@ -1,0 +1,50 @@
+/* jost-regular - cyrillic */
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/jost-v14-cyrillic-regular.eot");
+  src: local(""),
+    url("../fonts/jost-v14-cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/jost-v14-cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/jost-v14-cyrillic-regular.woff") format("woff"),
+    url("../fonts/jost-v14-cyrillic-regular.ttf") format("truetype"),
+    url("../fonts/jost-v14-cyrillic-regular.svg#Jost") format("svg");
+}
+/* jost-500 - cyrillic */
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/jost-v14-cyrillic-500.eot");
+  src: local(""),
+    url("../fonts/jost-v14-cyrillic-500.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/jost-v14-cyrillic-500.woff2") format("woff2"),
+    url("../fonts/jost-v14-cyrillic-500.woff") format("woff"),
+    url("../fonts/jost-v14-cyrillic-500.ttf") format("truetype"),
+    url("../fonts/jost-v14-cyrillic-500.svg#Jost") format("svg");
+}
+
+.title {
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
