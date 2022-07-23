@@ -4,10 +4,12 @@
 @import "./header.css";
 @import "./main.css";
 @import "./why.css";
+@import "./about.css";
 
 body {
   font-family: "Montserrat";
   background-color: var(--grey);
+  font-size: 1rem;
 }
 
 .wrapper {
