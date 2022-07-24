@@ -10,6 +10,8 @@
 @import "./cars.css";
 @import "./swap.css";
 @import "./faq.css";
+@import "./exchange.css";
+@import "./documents.css";
 
 body {
   font-family: "Montserrat";
@@ -20,4 +22,5 @@ body {
 .wrapper {
   margin: 0 auto;
   padding: 0 1rem;
+  max-width: 92rem;
 }
