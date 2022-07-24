@@ -1,0 +1,176 @@
+.swap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 100px 0 200px 0;
+}
+
+.swap__h2 {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: "Jost";
+  color: var(--black);
+  max-width: 590px;
+  width: 100%;
+}
+
+.swap__h3 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Jost";
+  margin: 0 0 22px 0;
+}
+
+.swap__number {
+  font-size: 100px;
+  font-weight: 500;
+  font-family: "Jost";
+  text-align: center;
+  margin: -32px 0 0 0;
+  -webkit-text-stroke: 2px var(--orange);
+  color: transparent;
+}
+
+.swap__container {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.swap__buttons {
+  display: flex;
+  padding: 0 1rem;
+  margin: 0 0 33px 0;
+}
+
+.swap__button {
+  margin: 0 0 0 13px;
+}
+
+.swap__button:first-child {
+  margin: 0;
+}
+
+.swap__block {
+  background-color: var(--lightGray);
+  padding: 75px 25px;
+  margin: 0;
+  box-shadow: 2px 4px 5px 0px #E3E3E3;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 260px;
+  max-width: 417px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swap-slide {
+  height: auto;
+}
+
+.swap-prev,
+.swap-next {
+  position: static !important;
+  border-radius: 900px;
+  border: 1px solid var(--black);
+  width: 65px;
+  height: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+}
+
+.swiper-button-prev {
+  background-image: url(../images/icons/arrow-left.svg);
+}
+
+.swiper-button-next {
+  background-image: url(../images/icons/arrow-right.svg);
+}
+
+@media screen and (max-width: 1218px) {
+  .swap__h3 {
+    font-size: 18px;
+  }
+
+  .swap__p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .swap__block {
+    padding: 45px 25px;
+  }
+
+  .swap__buttons {
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .swap__h2 {
+    font-size: 25px;
+  }
+
+  .swap__block {
+    min-height: 199px;
+  }
+
+  .swap__number {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .swap__block {
+    padding: 35px 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swap .wrapper {
+    margin: 0;
+  }
+
+  .swap__container {
+    align-items: flex-start;
+  }
+
+  .swap__h2 {
+    font-size: 35px;
+    max-width: 275px;
+  }
+
+  .swap__buttons {
+    margin: 35px 0 22px 0;
+  }
+
+  .swap__number {
+    font-size: 50px;
+  }
+
+  .swap__block {
+    min-height: 185px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .swap__block {
+    padding: 35px 15px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .swap__h3 {
+    margin: 0 0 12px 0;
+  }
+}
