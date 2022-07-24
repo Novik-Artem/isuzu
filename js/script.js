@@ -55,4 +55,21 @@ else {
       },
     }
   });
+
+  let exTitle = document.querySelectorAll(".exchange__subtitle");
+  let exPoint = document.querySelectorAll(".exchange__point");
+
+  for (let i = 0; i < exTitle.length; i++) {
+    for (let j = 0; j < exPoint.length; j++) {
+      exTitle[i].addEventListener('mouseenter', (event) => {
+        exTitle[i].classList.add('active');
+        exPoint[i].classList.add('active');
+      });
+
+      exTitle[i].addEventListener('mouseover', (event) => {
+        exTitle[i].classList.remove('active');
+        exPoint[i].classList.remove('active');
+      });
+    }
+  }
 }

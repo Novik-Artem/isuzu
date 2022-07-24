@@ -43,6 +43,15 @@
   display: flex;
   align-items: center;
 }
+.exchange__title.active {
+  color: var(--orange);
+  transition: all .5s;
+}
+.exchange__point.active {
+  color: var(--orange);
+  transition: all .5s;
+
+}
 .exchange__list {
   display: none;
 }
