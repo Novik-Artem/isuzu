@@ -1,12 +1,11 @@
 .footer {
   background-color: var(--black);
-  padding: 3rem 3.5rem 4.875rem;
+  padding: 3rem 0 4.875rem;
   font-family: 'Jost';
 }
 
 .footer-wrapper {
   display: flex;
-  padding: 0;
 }
 
 .footer-logo {
@@ -116,7 +115,13 @@
   }
   .footer-text {
     flex: 0 0 100%;
-    margin: 0 0 2rem;
+    margin: 0 1rem 2rem 0;
+  }
+  .footer-form {
+    flex: 0 0 100%;
+  }
+  .footer-contacts__phone {
+    margin-bottom: 2.5rem;
   }
 }
 
