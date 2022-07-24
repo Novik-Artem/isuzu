@@ -11,6 +11,7 @@
   width: 100%;
 }
 .faq__list li:last-child {
+  cursor: pointer;
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
