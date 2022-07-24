@@ -24,6 +24,15 @@ if (screenWidth <= 768) {
       },
     }
   });
+
+  let swiperDocuments = new Swiper(".documents__swiper", {
+    slidesPerView: 2.5,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".documents-next",
+      prevEl: ".documents-prev",
+    },
+  });
 }
 
 else {
