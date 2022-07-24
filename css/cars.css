@@ -1,6 +1,6 @@
 .cars {
   background-color: Var(--orange);
-  padding: 4rem 0 0 0;
+  padding: 4rem 0;
 }
 .cars__content {
   display: flex;
@@ -193,7 +193,6 @@
     flex: 0 1 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 0 1rem 0;
   }
   .cars__column:last-child {
