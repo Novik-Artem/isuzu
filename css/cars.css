@@ -32,7 +32,7 @@
   line-height: 100%;
   color: var(--white);
   text-decoration: underline;
-	margin: 2.5rem 0 0 0;
+  margin: 2.5rem 0 0 0;
 }
 .card_b {
   max-height: 40rem;
@@ -154,9 +154,12 @@
 }
 
 @media (max-width: 1000px) {
-	.column__minitext {
-		margin: 0;
-	}
+  .cars {
+    padding: 2rem 0;
+  }
+  .column__minitext {
+    margin: 0;
+  }
   .column__card {
     max-width: 25rem;
     max-height: 25rem;
