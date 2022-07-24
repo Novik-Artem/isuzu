@@ -1,23 +1,20 @@
-@import "./fonts.css";
-@import "./vars.css";
-@import "./null-style.css";
-@import "./header.css";
-@import "./main.css";
-@import "./why.css";
-@import "./swiper.css";
-@import "./benefits.css";
-@import "./about.css";
-@import "./cars.css";
-@import "./swap.css";
-@import "./documents.css";
+@import './fonts.css';
+@import './vars.css';
+@import './null-style.css';
+@import './grid.css';
+@import './header.css';
+@import './main.css';
+@import './why.css';
+@import './swiper.css';
+@import './benefits.css';
+@import './about.css';
+@import './cars.css';
+@import './swap.css';
+@import './documents.css';
+@import './footer.css';
 
 body {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   background-color: var(--grey);
   font-size: 1rem;
-}
-
-.wrapper {
-  margin: 0 auto;
-  padding: 0 1rem;
 }
