@@ -10,6 +10,16 @@
   flex: 0 1 66%;
   width: 100%;
 }
+.faq__list li:last-child {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--black);
+  display: inline-block;
+  border-bottom: 0.0625rem solid var(--orange);
+}
 .list__item-long {
   max-width: none;
 }
@@ -30,7 +40,7 @@
   width: 100%;
 }
 .details span {
-	font-family: "Montserrat";
+  font-family: "Montserrat";
 }
 @media (max-width: 1190px) {
   .faq__content {
