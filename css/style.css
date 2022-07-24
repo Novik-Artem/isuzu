@@ -9,6 +9,7 @@
 @import "./about.css";
 @import "./cars.css";
 @import "./swap.css";
+@import "./faq.css";
 
 body {
   font-family: "Montserrat";
