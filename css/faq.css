@@ -19,6 +19,7 @@
   color: var(--black);
   display: inline-block;
   border-bottom: 0.0625rem solid var(--orange);
+  cursor: pointer;
 }
 .list__item-long {
   max-width: none;
